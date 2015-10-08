@@ -4,7 +4,7 @@
 // date: 2015-09-29
 
 // Set some properties here ----------------------------------
-var mySass = './sass/**/*.{sass,scss}';
+var mySass = './sass/*.{sass,scss}';
 var myCSS  = './css';
 
 // -----------------------------------------------------------

@@ -9,6 +9,28 @@ There are branches that contains different states that makes compiling successfu
 * `css-glob` — passes if we use `gulp` globbing but not `gulp-css-globbing`
 * `mixin-in-scss` — both globbing there but no mixins in imported partials
 
+## `gulp-glob`
+
+Passes if only `gulp` globbing is turned off for directories:
+
+```
+diff --git a/gulpfile.js b/gulpfile.js
+index 3679d91..5cb368a 100644
+--- a/gulpfile.js
++++ b/gulpfile.js
+@@ -4,7 +4,7 @@
+ // date: 2015-09-29
+ 
+ // Set some properties here ----------------------------------
+-var mySass = './sass/**/*.{sass,scss}';
++var mySass = './sass/*.{sass,scss}';
+ var myCSS  = './css';
+ 
+ // -----------------------------------------------------------
+```
+
+That is **the only** change and it compiles successfully.
+
 ## Reproducing the error
 
 Testing for globbing problems in gulp-sass and gulp-css-globbing.
