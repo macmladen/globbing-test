@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+// 1. Settings, configuration, variables
+@import
+  'settings/**/*';
+
+// 2. Functions, mixins and helpers
+@import
+  'tools/**/*';
+
+// 3. Base stuff
+@import
+  'base/**/*';
+
+// 4. Global sections
+@import
+  'global/**/*';
+
+// 5. Components
+@import
+  'components/**/*';
+
+// 6. Page-specific styles
+@import
+  'pages/**/*';
+
+// 7. Themes
+@import
+  'themes/**/*';

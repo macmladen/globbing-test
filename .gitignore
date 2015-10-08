@@ -1,0 +1,12 @@
+# OS and IDE files
+.DS_Store
+.idea
+
+# Modules and libraries folders - these are built with install procedure
+/node_modules
+/bower_components
+/vendor
+
+.sass-cache
+css
+public

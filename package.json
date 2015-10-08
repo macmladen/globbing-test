@@ -1,0 +1,31 @@
+{
+  "name": "globbing-test",
+  "version": "1.0.0",
+  "description": "Testing for globbing problems in gulp-sass and gulp-css-globbing.",
+  "homepage": "https://github.com/macmladen/globbing-test#readme",
+  "author": "Mladen Djuric (macmladen@gmail.com)",
+  "license": "GPL-2.0",
+  "main": "gulpfile.js",
+  "keywords": [
+    "gulp",
+    "sass",
+    "boilerplate",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macmladen/globbing-teste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/macmladen/globbing-test/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-css-globbing": "^0.1.8",
+    "gulp-sass": "^2.0.4"
+  }
+}
