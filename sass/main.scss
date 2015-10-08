@@ -2,28 +2,40 @@
 
 // 1. Settings, configuration, variables
 @import
-  'settings/**/*';
+  'settings/breakpoints',
+  'settings/colors',
+  'settings/init',
+  'settings/typography',
+  'settings/variables';
 
 // 2. Functions, mixins and helpers
 @import
-  'tools/**/*';
+  'tools/functions',
+  'tools/mixins';
 
 // 3. Base stuff
 @import
-  'base/**/*';
+  'base/base',
+  'base/elements',
+  'base/fonts',
+  'base/fonts',
+  'base/helpers',
+  'base/typography';
 
 // 4. Global sections
 @import
-  'global/**/*';
+  'global/header',
+  'global/footer';
 
 // 5. Components
 @import
-  'components/**/*';
+  'components/vendors/normalize',
+  'components/buttons';
 
 // 6. Page-specific styles
 @import
-  'pages/**/*';
+  'pages/home';
 
 // 7. Themes
 @import
-  'themes/**/*';
+  'themes/default';

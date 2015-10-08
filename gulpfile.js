@@ -27,9 +27,9 @@ console.log(nsass.info);
 // Gulp Sass Task
 gulp.task('sass', function() {
   gulp.src(mySass)
-    .pipe(cssGlobbing({
-      extensions: ['.css', '.scss']
-    }))
+    //.pipe(cssGlobbing({
+    //  extensions: ['.css', '.scss']
+    //}))
     // Uncomment this and bottom write if you want separate maps (you don't)
     //.pipe(sourcemaps.init())
     .pipe(sass({

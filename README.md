@@ -9,6 +9,18 @@ There are branches that contains different states that makes compiling successfu
 * `css-glob` — passes if we use `gulp` globbing but not `gulp-css-globbing`
 * `mixin-in-scss` — both globbing there but no mixins in imported partials
 
+## `css-glob`
+
+Passes if we use `gulp` globbing but not `gulp-css-globbing`.
+
+This requires that all files in `main` are declared explicitly. Also `gulp-css-globbing` is removed from `gulpfile`.
+
+Compile with:
+
+```
+gulp sass
+```
+
 ## Reproducing the error
 
 Testing for globbing problems in gulp-sass and gulp-css-globbing.
